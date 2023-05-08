@@ -9,12 +9,8 @@ const BlogGrid = ({ customClass }) => {
         <Row className="justify-content-center">
           <Col lg={6} md={8}>
             <div className="section-title text-center space-mb--25">
-              <h2>Latest News</h2>
+              <h2>Latest Blogs</h2>
             </div>
-            <p className="leads text-center">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore.
-            </p>
           </Col>
         </Row>
         <Row className="justify-content-center">
@@ -26,34 +22,30 @@ const BlogGrid = ({ customClass }) => {
             >
               <div className="blog-post__image">
                 <Link href="/blog/post-left-sidebar">
-
                   <img
                     src="/assets/images/blog/furniture_blog_img1.jpg"
                     alt="blog_small_img1"
                   />
-
                 </Link>
               </div>
               <div className="blog-post__content">
                 <div className="blog-text">
                   <h6 className="blog-title">
                     <Link href="/blog/post-left-sidebar">
-                      
-                        But I must explain to you how all this mistaken idea
-                      
+                      But I must explain to you how all this mistaken idea
                     </Link>
                   </h6>
                   <ul className="blog-meta">
                     <li>
                       <Link href="/blog/post-left-sidebar">
-
-                        <FaCalendarAlt />April 14, 2021
+                        <FaCalendarAlt />
+                        April 14, 2021
                       </Link>
                     </li>
                     <li>
                       <Link href="/blog/post-left-sidebar">
-
-                        <FaRegComments />10 Comments
+                        <FaRegComments />
+                        10 Comments
                       </Link>
                     </li>
                   </ul>
@@ -74,34 +66,30 @@ const BlogGrid = ({ customClass }) => {
             >
               <div className="blog-post__image">
                 <Link href="/blog/post-left-sidebar">
-
                   <img
                     src="/assets/images/blog/furniture_blog_img2.jpg"
                     alt="blog_small_img1"
                   />
-
                 </Link>
               </div>
               <div className="blog-post__content">
                 <div className="blog-text">
                   <h6 className="blog-title">
                     <Link href="/blog/post-left-sidebar">
-                      
-                        On the other hand we provide denounce with righteous
-                      
+                      On the other hand we provide denounce with righteous
                     </Link>
                   </h6>
                   <ul className="blog-meta">
                     <li>
                       <Link href="/blog/post-left-sidebar">
-
-                        <FaCalendarAlt />April 15, 2020
+                        <FaCalendarAlt />
+                        April 15, 2020
                       </Link>
                     </li>
                     <li>
                       <Link href="/blog/post-left-sidebar">
-
-                        <FaRegComments />11 Comments
+                        <FaRegComments />
+                        11 Comments
                       </Link>
                     </li>
                   </ul>
@@ -122,12 +110,10 @@ const BlogGrid = ({ customClass }) => {
             >
               <div className="blog-post__image">
                 <Link href="/blog/post-left-sidebar">
-
                   <img
                     src="/assets/images/blog/furniture_blog_img3.jpg"
                     alt="blog_small_img1"
                   />
-
                 </Link>
               </div>
               <div className="blog-post__content">
@@ -140,14 +126,14 @@ const BlogGrid = ({ customClass }) => {
                   <ul className="blog-meta">
                     <li>
                       <Link href="/blog/post-left-sidebar">
-
-                        <FaCalendarAlt />April 16, 2020
+                        <FaCalendarAlt />
+                        April 16, 2020
                       </Link>
                     </li>
                     <li>
                       <Link href="/blog/post-left-sidebar">
-
-                        <FaRegComments />12 Comments
+                        <FaRegComments />
+                        12 Comments
                       </Link>
                     </li>
                   </ul>

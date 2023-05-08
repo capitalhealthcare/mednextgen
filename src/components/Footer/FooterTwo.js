@@ -233,7 +233,7 @@ const FooterTwo = () => {
             </Row>
           </Container>
         </div>
-        <div className="footer-middle">
+        {/* <div className="footer-middle">
           <Container>
             <Row>
               <Col>
@@ -286,7 +286,7 @@ const FooterTwo = () => {
               </Col>
             </Row>
           </Container>
-        </div>
+        </div> */}
         <div className="footer-bottom space-pt--30 space-pb--30">
           <Container>
             <Row className="align-items-center">
