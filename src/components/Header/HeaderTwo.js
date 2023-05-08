@@ -43,7 +43,7 @@ const HeaderTwo = ({ navPositionClass }) => {
   return (
     <header className={clsx("header-wrap header-with-topbar", scroll > headerHeight && "is-sticky")}>
       {/* header top */}
-      <HeaderTopTwo />
+      {/* <HeaderTopTwo /> */}
 
       {/* middle header */}
       <div className="middle-header dark-skin  space-pt--20 space-pb--20">

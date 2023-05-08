@@ -33,7 +33,7 @@ const ProductGridTwo = ({
             />
 
           </Link>
-          <div className="product-grid__badge-wrapper">
+          {/* <div className="product-grid__badge-wrapper">
             {product.new ? <span className="pr-flash">NEW</span> : ""}
             {product.featured ? (
               <span className="pr-flash bg-danger">HOT</span>
@@ -45,10 +45,10 @@ const ProductGridTwo = ({
             ) : (
               ""
             )}
-          </div>
+          </div> */}
           <div className="product-grid__action-box">
             <ul>
-              <li>
+              {/* <li>
                 {product.affiliateLink ? (
                   <a href={product.affiliateLink} target="_blank">
                     <i className="icon-action-redo" />
@@ -73,8 +73,8 @@ const ProductGridTwo = ({
                     <i className="icon-basket-loaded" />
                   </button>
                 )}
-              </li>
-              <li>
+              </li> */}
+              {/* <li>
                 <button
                   onClick={
                     compareItem !== undefined
@@ -85,7 +85,7 @@ const ProductGridTwo = ({
                 >
                   <i className="icon-shuffle" />
                 </button>
-              </li>
+              </li> */}
               <li>
                 <button
                   onClick={() => setModalShow(true)}
@@ -94,7 +94,7 @@ const ProductGridTwo = ({
                   <i className="icon-magnifier-add" />
                 </button>
               </li>
-              <li>
+              {/* <li>
                 <button
                   onClick={
                     wishlistItem !== undefined
@@ -105,7 +105,7 @@ const ProductGridTwo = ({
                 >
                   <i className="icon-heart" />
                 </button>
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>

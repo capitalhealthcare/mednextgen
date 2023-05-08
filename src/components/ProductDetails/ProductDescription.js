@@ -231,7 +231,7 @@ const ProductDescription = ({
               </button>
             )}
 
-            <button
+            {/* <button
               className={`product-content__compare ${
                 compareItem !== undefined ? "active" : ""
               }`}
@@ -247,9 +247,9 @@ const ProductDescription = ({
               }
             >
               <i className="icon-shuffle" />
-            </button>
+            </button> */}
 
-            <button
+            {/* <button
               className={`product-content__wishlist ${
                 wishlistItem !== undefined ? "active" : ""
               }`}
@@ -265,7 +265,7 @@ const ProductDescription = ({
               }
             >
               <i className="icon-heart" />
-            </button>
+            </button> */}
           </div>
         </Fragment>
       )}

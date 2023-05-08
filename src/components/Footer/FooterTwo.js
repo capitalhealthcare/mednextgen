@@ -20,7 +20,7 @@ import {
 const FooterTwo = () => {
   return (
     <Fragment>
-      <div className="bg--dark space-pt--60 space-pb--60">
+      {/* <div className="bg--dark space-pt--60 space-pb--60">
         <Container>
           <Row className="align-items-center">
             <Col md={6}>
@@ -37,7 +37,7 @@ const FooterTwo = () => {
             </Col>
           </Row>
         </Container>
-      </div>
+      </div> */}
       <footer className="bg--grey">
         <div className="footer-top footer-top--style-two">
           <Container>

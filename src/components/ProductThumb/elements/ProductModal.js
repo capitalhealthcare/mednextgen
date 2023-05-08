@@ -306,7 +306,7 @@ const ProductModal = ({
                       </button>
                     )}
 
-                    <button
+                    {/* <button
                       className={`product-quickview__compare ${
                         compareitem !== undefined ? "active" : ""
                       }`}
@@ -322,9 +322,9 @@ const ProductModal = ({
                       }
                     >
                       <i className="icon-shuffle" />
-                    </button>
+                    </button> */}
 
-                    <button
+                    {/* <button
                       className={`product-quickview__wishlist ${
                         wishlistitem !== undefined ? "active" : ""
                       }`}
@@ -340,7 +340,7 @@ const ProductModal = ({
                       }
                     >
                       <i className="icon-heart" />
-                    </button>
+                    </button> */}
                   </div>
                 </Fragment>
               )}
