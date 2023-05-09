@@ -10,8 +10,10 @@ import ProductSliderNine from "./ProductSliderNine";
 import ProductSliderTen from "./ProductSliderTen";
 import ProductSliderEleven from "./ProductSliderEleven";
 import DealProductSlider from "./DealProductSlider";
+import OnlyProductSlider from "./OnlyProductSlider";
 
 export {
+  OnlyProductSlider,
   ProductSliderOne,
   ProductSliderTwo,
   ProductSliderThree,
@@ -23,5 +25,5 @@ export {
   ProductSliderNine,
   ProductSliderTen,
   ProductSliderEleven,
-  DealProductSlider
+  DealProductSlider,
 };

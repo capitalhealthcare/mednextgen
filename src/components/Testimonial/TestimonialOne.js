@@ -5,7 +5,7 @@ const params = {
   loop: true,
   slidesPerView: 1,
   spaceBetween: 60,
-  navigation: true
+  navigation: true,
 };
 
 const TestimonialOne = ({ testimonialData }) => {
@@ -15,7 +15,7 @@ const TestimonialOne = ({ testimonialData }) => {
         <Row className="justify-content-center">
           <Col md={6}>
             <div className="section-title text-center space-mb--25">
-              <h2>Our Client Say!</h2>
+              <h2 style={{ color: "#F79C1D" }}>Our Client Say!</h2>
             </div>
           </Col>
         </Row>
@@ -25,17 +25,20 @@ const TestimonialOne = ({ testimonialData }) => {
               {!!testimonialData?.length ? (
                 <Swiper options={params} navClass="testimonial-one">
                   {testimonialData.map((single, key) => (
-                    <SwiperSlide className="testimonial-box text-center" key={key}>
+                    <SwiperSlide
+                      className="testimonial-box text-center"
+                      key={key}
+                    >
                       <div className="testimonial-desc space-mb--25">
-                        <p>{single.content}</p>
+                        <p style={{ color: "white" }}>{single.content}</p>
                       </div>
                       <div className="author-wrap text-start">
                         <div className="author-img">
                           <img src={single.image} alt="user_img1" />
                         </div>
                         <div className="author-name">
-                          <h6>{single.name}</h6>
-                          <span>{single.designation}</span>
+                          <h6 style={{ color: "white" }}>{single.name}</h6>
+                          {/* <span>{single.designation}</span> */}
                         </div>
                       </div>
                     </SwiperSlide>

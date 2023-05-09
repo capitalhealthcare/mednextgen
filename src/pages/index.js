@@ -11,10 +11,14 @@ import { TestimonialOne } from "../components/Testimonial";
 import {
   ProductSliderEightWrapper,
   ProductSliderNine,
+  OnlyProductSlider,
 } from "../components/ProductSlider";
+import { CountdownOne } from "../components/Countdown";
 
 const FashionTwo = () => {
   const { products } = useSelector((state) => state.product);
+  const productss = useSelector((state) => state);
+
   const featuredProducts = getProducts(products, "fashion", "featured", 8);
   const bestSellerProducts = getProducts(products, "fashion", "popular", 10);
   const saleProducts = getProducts(products, "fashion", "sale", 8);
@@ -26,23 +30,16 @@ const FashionTwo = () => {
       <HeroSliderTwo heroSliderData={heroSliderTwoData} />
       {/* icon box */}
       <IconBoxOne />
-      {/* tab product */}
       {/* product slider */}
-      <ProductSliderEightWrapper
-        featuredTitle="Featured Products"
-        bestSellerTitle="Bestseller Products"
-        saleTitle="Sale Products"
-        featuredProducts={featuredProducts}
-        bestSellerProducts={bestSellerProducts}
-        saleProducts={saleProducts}
-      />
+      <OnlyProductSlider title="Products" products={trendingProducts} />
       {/* banner */}
       <BannerTwo />
-      {/* product slider */}
-      <ProductSliderNine
-        title="Trending Products"
-        bannerImage="/assets/images/banner/shop_banner_img10.jpg"
-        products={trendingProducts}
+      <CountdownOne
+        backgroundImage="/assets/images/banner/furniture_banner3.jpg"
+        // title="Sale 40% Off"
+        subtitle="Please explore our offerings and find the right item and size your needs. Quick and easy checkout to get your products to you faster. Just select, pay and get on with running your business."
+        url="/shop/grid-left-sidebar"
+        dateTime="July 07, 2024 12:12:00"
       />
       {/* banner */}
       <BannerThree />

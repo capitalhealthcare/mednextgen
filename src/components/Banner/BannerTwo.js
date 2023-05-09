@@ -13,11 +13,11 @@ const BannerTwo = () => {
                 alt="shop_banner_img1"
               />
               <div className="single-banner__info">
-                <h5>Super Sale</h5>
-                <h3 className="title">New Collection</h3>
-                <Link href="/shop/grid-left-sidebar" className="link">
+                {/* <h5>Super Salessssssssssssss</h5> */}
+                {/* <h3 className="title">New Collection</h3> */}
+                {/* <Link href="/shop/grid-left-sidebar" className="link">
                   Shop Now
-                </Link>
+                </Link> */}
               </div>
             </div>
           </Col>
@@ -28,11 +28,11 @@ const BannerTwo = () => {
                 alt="shop_banner_img1"
               />
               <div className="single-banner__info">
-                <h5>New Season</h5>
-                <h3 className="title">Sale 40% Off</h3>
-                <Link href="/shop/grid-left-sidebar" className="link">
+                {/* <h5>New Season</h5> */}
+                {/* <h3 className="title">Sale 40% Off</h3> */}
+                {/* <Link href="/shop/grid-left-sidebar" className="link">
                   Shop Now
-                </Link>
+                </Link> */}
               </div>
             </div>
           </Col>

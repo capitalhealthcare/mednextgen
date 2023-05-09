@@ -16,7 +16,7 @@ const CountdownOne = ({ title, subtitle, backgroundImage, dateTime, url }) => {
             <div className="furniture-banner">
               <h3 className="single-bn-title">{subtitle}</h3>
               <h4 className="single-bn-title-one">{title}</h4>
-              <Countdown date={dateTime} className="countdown-two space-mb--20" />
+              {/* <Countdown date={dateTime} className="countdown-two space-mb--20" /> */}
               <Link href={url} className="btn btn-fill-out">
                 Shop Now
               </Link>

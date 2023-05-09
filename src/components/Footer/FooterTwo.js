@@ -6,38 +6,21 @@ import {
   IoLogoInstagram,
   IoIosPhonePortrait,
   IoIosMailOpen,
-  IoIosPin
+  IoIosPin,
 } from "react-icons/io";
 import {
   FaFacebookF,
   FaTwitter,
   FaGooglePlusG,
+  FaLinkedin,
   FaYoutube,
   FaInstagram,
-  FaHeart
+  FaHeart,
 } from "react-icons/fa";
 
 const FooterTwo = () => {
   return (
     <Fragment>
-      {/* <div className="bg--dark space-pt--60 space-pb--60">
-        <Container>
-          <Row className="align-items-center">
-            <Col md={6}>
-              <h3 className="newsletter-title text-white mb-md-0">
-                Subscribe Our Newsletter
-              </h3>
-            </Col>
-            <Col md={6}>
-              <SubscribeEmail
-                mailchimpUrl="https://devitems.us11.list-manage.com/subscribe/post?u=6bbb9b6f5827bd842d9640c82&amp;id=05d85f18ef"
-                alertColor="#fff"
-                btnColorClass="btn-default"
-              />
-            </Col>
-          </Row>
-        </Container>
-      </div> */}
       <footer className="bg--grey">
         <div className="footer-top footer-top--style-two">
           <Container>
@@ -46,98 +29,93 @@ const FooterTwo = () => {
                 <div className="widget">
                   <div className="footer-logo">
                     <Link href="/">
-
                       <img src="/assets/images/logo_dark.png" alt="logo" />
-
                     </Link>
                   </div>
-                  <p>
-                    If you are going to use of Lorem Ipsum need to be sure there
-                    isn't anything hidden of text
+                  <p style={{ color: "white" }}>
+                    We simplify pain management procurement. Experience the best
+                    with transparent pricing, exceptional service, and unmatched
+                    simplicity.
                   </p>
                   <ul className="contact-info">
                     <li>
-                      <IoIosPin />
-                      <p>123 Street, Old Trafford, New South London , UK</p>
+                      <IoIosPin color="#F79C1D" />
+                      <Link href="#">
+                        2071 N Collins Blvd Suite A Richardson TX 75080
+                      </Link>
+                      <p></p>
                     </li>
                     <li>
-                      <IoIosMailOpen />
-                      <a href="mailto:info@sitename.com">info@sitename.com</a>
+                      <IoIosMailOpen color="#F79C1D" />
+                      <a href="mailto:admin@mednextgen.com">
+                        admin@mednextgen.com
+                      </a>
                     </li>
                     <li>
-                      <IoIosPhonePortrait />
-                      <p>+ 457 789 789 65</p>
+                      <IoIosPhonePortrait color="#F79C1D" />
+                      <p></p>
+                      <Link href="#">+1 (469) 866-5222</Link>
                     </li>
                   </ul>
                 </div>
               </Col>
               <Col lg={2} md={4} sm={6}>
                 <div className="widget">
-                  <h6 className="widget-title">Useful Links</h6>
+                  <h6 className="widget-title" style={{ color: "#F79C1D" }}>
+                    Useful Links
+                  </h6>
                   <ul className="widget-links">
                     <li>
-                      <Link href="/other/about-us">
-                        About Us
-                      </Link>
+                      <Link href="/">Home</Link>
                     </li>
                     <li>
-                      <Link href="/other/faq">
-                        FAQ
-                      </Link>
+                      <Link href="/other/about-us">About Us</Link>
                     </li>
                     <li>
-                      <Link href="/">
-                        Location
-                      </Link>
+                      <Link href="/other/contact-us">Contact Us</Link>
                     </li>
                     <li>
-                      <Link href="/">
-                        Affiliates
-                      </Link>
+                      <Link href="/other/faq">FAQ</Link>
                     </li>
+
                     <li>
-                      <Link href="/other/contact-us">
-                        Contact
-                      </Link>
+                      <Link href="/blog/list-left-sidebar">Blogs</Link>
+                    </li>
+
+                    <li>
+                      <Link href="/other/contact-us">Terms & Conditions</Link>
                     </li>
                   </ul>
                 </div>
               </Col>
               <Col lg={2} md={4} sm={6}>
                 <div className="widget">
-                  <h6 className="widget-title">My Account</h6>
+                  <h6 className="widget-title" style={{ color: "#F79C1D" }}>
+                    Categories
+                  </h6>
                   <ul className="widget-links">
                     <li>
-                      <Link href="/other/my-account">
-                        My Account
-                      </Link>
+                      <Link href="/">Grounding Pads</Link>
                     </li>
                     <li>
-                      <Link href="/">
-                        Discount
-                      </Link>
+                      <Link href="/">Spinal Needles</Link>
                     </li>
                     <li>
-                      <Link href="/">
-                        Returns
-                      </Link>
+                      <Link href="/">RF Electrodes</Link>
                     </li>
                     <li>
-                      <Link href="/">
-                        Orders History
-                      </Link>
+                      <Link href="/other/my-account">RF Cannulas</Link>
                     </li>
+
                     <li>
-                      <Link href="/">
-                        Order Tracking
-                      </Link>
+                      <Link href="/">Epidurals</Link>
                     </li>
                   </ul>
                 </div>
               </Col>
               <Col lg={4} md={4} sm={12}>
                 <div className="widget">
-                  <h6 className="widget-title">Instagram</h6>
+                  <h6 className="widget-title" style={{ color: "#F79C1D" }}>Instagram</h6>
                   <ul className="widget-instafeed widget-instafeed--col4">
                     <li>
                       <a href="#">
@@ -233,70 +211,17 @@ const FooterTwo = () => {
             </Row>
           </Container>
         </div>
-        {/* <div className="footer-middle">
-          <Container>
-            <Row>
-              <Col>
-                <div className="shopping-info">
-                  <Row className="justify-content-center">
-                    <Col md={4}>
-                      <div className="icon-box icon-box--style3">
-                        <div className="icon-box__icon">
-                          <i className="flaticon-shipped" />
-                        </div>
-                        <div className="icon-box__content">
-                          <h5>Free Delivery</h5>
-                          <p>
-                            Phasellus blandit massa enim elit of passage varius
-                            nunc.
-                          </p>
-                        </div>
-                      </div>
-                    </Col>
-                    <Col md={4}>
-                      <div className="icon-box icon-box--style3">
-                        <div className="icon-box__icon">
-                          <i className="flaticon-money-back" />
-                        </div>
-                        <div className="icon-box__content">
-                          <h5>30 Days Return Guarantee</h5>
-                          <p>
-                            Phasellus blandit massa enim elit of passage varius
-                            nunc.
-                          </p>
-                        </div>
-                      </div>
-                    </Col>
-                    <Col md={4}>
-                      <div className="icon-box icon-box--style3">
-                        <div className="icon-box__icon">
-                          <i className="flaticon-support" />
-                        </div>
-                        <div className="icon-box__content">
-                          <h5>24/7 Online Support</h5>
-                          <p>
-                            Phasellus blandit massa enim elit of passage varius
-                            nunc.
-                          </p>
-                        </div>
-                      </div>
-                    </Col>
-                  </Row>
-                </div>
-              </Col>
-            </Row>
-          </Container>
-        </div> */}
-        <div className="footer-bottom space-pt--30 space-pb--30">
+
+        <div className="footer-bottom space-pb--30">
           <Container>
             <Row className="align-items-center">
               <Col lg={4}>
                 <p className="text-center text-lg-start mb-3 mb-lg-0">
-                  Copyright &copy; {new Date().getFullYear() + " "}. Built with{" "}
-                  <FaHeart /> by{" "}
-                  <a href="https://www.hasthemes.com" target="_blank">
-                    HasThemes
+                  Copyright &copy; 2023{" "}
+                  <a href="/" target="_blank">
+                    mednextgen
                   </a>
+                  . All Rights Reserved.
                 </p>
               </Col>
               <Col lg={4} className="order-lg-first">
@@ -312,8 +237,8 @@ const FooterTwo = () => {
                     </a>
                   </li>
                   <li>
-                    <a href="#" className="sc_google">
-                      <FaGooglePlusG />
+                    <a href="#" className="sc_instagram">
+                      <FaLinkedin />
                     </a>
                   </li>
                   <li>
