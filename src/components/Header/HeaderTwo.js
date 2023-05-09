@@ -3,11 +3,9 @@ import Link from "next/link";
 import { Container, Row, Col } from "react-bootstrap";
 import { useSelector } from "react-redux";
 import { IoIosSearch, IoIosMenu } from "react-icons/io";
-import { AiOutlineShoppingCart, AiOutlineHeart } from "react-icons/ai";
-import { BsPerson } from "react-icons/bs";
+import { AiOutlineShoppingCart } from "react-icons/ai";
 import { FiPhoneCall } from "react-icons/fi";
 import clsx from "clsx";
-import HeaderTopTwo from "./elements/HeaderTopTwo";
 import Navigation from "./elements/Navigation";
 import MobileMenu from "./elements/MobileMenu";
 import MobileCategoryMenu from "./elements/MobileCategoryMenu";
@@ -17,15 +15,13 @@ import CategoryMenu from "./elements/CategoryMenu";
 const HeaderTwo = ({ navPositionClass }) => {
   const [scroll, setScroll] = useState(0);
   const [headerHeight, setHeaderHeight] = useState(0);
-  const [offCanvasMobileMenuActive, setOffCanvasMobileMenuActive] = useState(
-    false
-  );
+  const [offCanvasMobileMenuActive, setOffCanvasMobileMenuActive] =
+    useState(false);
   const [
     offCanvasMobileCategoryMenuActive,
-    setOffCanvasMobileCategoryMenuActive
+    setOffCanvasMobileCategoryMenuActive,
   ] = useState(false);
   const { cartItems } = useSelector((state) => state.cart);
-  const { wishlistItems } = useSelector((state) => state.wishlist);
 
   useEffect(() => {
     const header = document.querySelector(".header-wrap");
@@ -41,7 +37,12 @@ const HeaderTwo = ({ navPositionClass }) => {
   };
 
   return (
-    <header className={clsx("header-wrap header-with-topbar", scroll > headerHeight && "is-sticky")}>
+    <header
+      className={clsx(
+        "header-wrap header-with-topbar",
+        scroll > headerHeight && "is-sticky"
+      )}
+    >
       {/* header top */}
       {/* <HeaderTopTwo /> */}
 
@@ -51,7 +52,6 @@ const HeaderTwo = ({ navPositionClass }) => {
           <div className="d-flex justify-content-between align-items-center">
             {/* logo */}
             <Link href="/" className="navbar-brand pt-0 pb-0">
-
               <img
                 className="logo-light"
                 src="/assets/images/logo_light.png"
@@ -62,7 +62,6 @@ const HeaderTwo = ({ navPositionClass }) => {
                 src="/assets/images/logo_dark.png"
                 alt="logo"
               />
-
             </Link>
             <div className="product-search-form d-none d-lg-block">
               <form>
@@ -124,47 +123,27 @@ const HeaderTwo = ({ navPositionClass }) => {
                 <Navigation positionClass={navPositionClass} />
                 {/* icons */}
                 <ul className="header-icons d-flex justify-content-end">
-                  <li>
-                    <Link href="/other/my-account" className="nav-link pe-3">
-
-                      <BsPerson />
-
-                    </Link>
-                  </li>
-
-                  <li className="position-relative">
-                    <Link href="/other/wishlist" className="nav-link mini-cart-trigger pe-3">
-
-                      <AiOutlineHeart />
-                      {wishlistItems.length > 0 ? (
-                        <span className="cart-count cart-count--mobile">
-                          {wishlistItems.length}
-                        </span>
-                      ) : (
-                        ""
-                      )}
-
-                    </Link>
-                  </li>
-
                   <li className="d-none d-lg-block position-relative">
-                    <Link href="/other/cart" className="nav-link mini-cart-trigger pe-3 pe-lg-0">
-
+                    <Link
+                      href="/other/cart"
+                      className="nav-link mini-cart-trigger pe-3 pe-lg-0"
+                    >
                       <AiOutlineShoppingCart />
                       {cartItems.length > 0 ? (
                         <span className="cart-count">{cartItems.length}</span>
                       ) : (
                         ""
                       )}
-
                     </Link>
                     {/* mini cart */}
                     <MiniCart cartItems={cartItems} />
                   </li>
 
                   <li className="d-block d-lg-none position-relative">
-                    <Link href="/other/cart" className="nav-link mini-cart-trigger pe-3 pe-lg-0">
-
+                    <Link
+                      href="/other/cart"
+                      className="nav-link mini-cart-trigger pe-3 pe-lg-0"
+                    >
                       <AiOutlineShoppingCart />
                       {cartItems.length > 0 ? (
                         <span className="cart-count cart-count--mobile">
@@ -173,7 +152,6 @@ const HeaderTwo = ({ navPositionClass }) => {
                       ) : (
                         ""
                       )}
-
                     </Link>
                   </li>
 

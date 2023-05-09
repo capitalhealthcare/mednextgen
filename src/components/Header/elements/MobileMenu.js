@@ -21,12 +21,12 @@ const MobileMenu = ({ activeStatus, getActiveStatus }) => {
         <div className="offcanvas-mobile-menu__content-wrapper">
           <div className="offcanvas-mobile-menu__content">
             {/* mobile search */}
-            <MobileMenuSearch />
+            {/* <MobileMenuSearch /> */}
 
             {/* mobile nav menu */}
             <MobileMenuNav getActiveStatus={getActiveStatus} />
 
-            <div className="offcanvas-mobile-menu__middle space-mb--30">
+            {/* <div className="offcanvas-mobile-menu__middle space-mb--30">
               <div className="lang-curr-style space-mb--20">
                 <span className="title">Choose Language </span>
                 <select>
@@ -43,10 +43,10 @@ const MobileMenu = ({ activeStatus, getActiveStatus }) => {
                   <option value="GBP">GBP</option>
                 </select>
               </div>
-            </div>
+            </div> */}
 
             {/* mobile widgets */}
-            <MobileMenuWidgets />
+            {/* <MobileMenuWidgets /> */}
           </div>
         </div>
       </div>
