@@ -41,10 +41,9 @@ const CategoryMenu = () => {
             </li>
             <li>
               <Link href="/shop/grid-left-sidebar" className="nav-link">
-                <i className="flaticon-watch"></i> <span>Grounding Pads</span>
+                <i className="flaticon-watch"></i> <span>Gloves</span>
               </Link>
             </li>
-
             {/* <SlideDown closed={categoryMenuItemExpandStatus ? false : true}>
               <li>
                 <Link href="/shop/grid-left-sidebar" className="nav-link">

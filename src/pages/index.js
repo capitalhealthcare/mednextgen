@@ -22,7 +22,7 @@ const FashionTwo = () => {
   const featuredProducts = getProducts(products, "fashion", "featured", 8);
   const bestSellerProducts = getProducts(products, "fashion", "popular", 10);
   const saleProducts = getProducts(products, "fashion", "sale", 8);
-  const trendingProducts = getProducts(products, "electronics", "popular", 10);
+  const trendingProducts = getProducts(products, "rf-cannulas", "new", 10);
 
   return (
     <LayoutTwo navPositionClass="justify-content-start">
@@ -34,13 +34,13 @@ const FashionTwo = () => {
       <OnlyProductSlider title="Products" products={trendingProducts} />
       {/* banner */}
       <BannerTwo />
-      <CountdownOne
+      {/* <CountdownOne
         backgroundImage="/assets/images/banner/furniture_banner3.jpg"
         // title="Sale 40% Off"
         subtitle="Please explore our offerings and find the right item and size your needs. Quick and easy checkout to get your products to you faster. Just select, pay and get on with running your business."
         url="/shop/grid-left-sidebar"
         dateTime="July 07, 2024 12:12:00"
-      />
+      /> */}
       {/* banner */}
       <BannerThree />
       {/* testimonial */}

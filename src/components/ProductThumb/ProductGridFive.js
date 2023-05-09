@@ -5,8 +5,14 @@ import clsx from "clsx";
 import ProductModal from "./elements/ProductModal";
 import { ProductRating } from "../Product";
 import { addToCart } from "../../store/slices/cart-slice";
-import { addToWishlist, deleteFromWishlist } from "../../store/slices/wishlist-slice";
-import { addToCompare, deleteFromCompare } from "../../store/slices/compare-slice";
+import {
+  addToWishlist,
+  deleteFromWishlist,
+} from "../../store/slices/wishlist-slice";
+import {
+  addToCompare,
+  deleteFromCompare,
+} from "../../store/slices/compare-slice";
 
 const ProductGridFive = ({
   product,
@@ -23,7 +29,9 @@ const ProductGridFive = ({
 
   return (
     <Fragment>
-      <div className={clsx("product-grid product-grid--style-three", bottomSpace)}>
+      <div
+        className={clsx("product-grid product-grid--style-three", bottomSpace)}
+      >
         <div className="product-grid__image">
           <Link href={"/shop/product-basic/" + product.slug}>
             <img
@@ -36,19 +44,7 @@ const ProductGridFive = ({
               alt="product_img1"
             />
           </Link>
-          <div className="product-grid__badge-wrapper">
-            {product.new ? <span className="pr-flash">NEW</span> : ""}
-            {product.featured ? (
-              <span className="pr-flash bg-danger">HOT</span>
-            ) : (
-              ""
-            )}
-            {product.discount ? (
-              <span className="pr-flash bg-success">SALE</span>
-            ) : (
-              ""
-            )}
-          </div>
+
           <div className="product-grid__action-box">
             <ul>
               <li>
@@ -57,9 +53,9 @@ const ProductGridFive = ({
                     <i className="icon-action-redo" />
                   </a>
                 ) : product.variation && product.variation.length >= 1 ? (
-                  (<Link href={"/shop/product-basic/" + product.slug}>
+                  <Link href={"/shop/product-basic/" + product.slug}>
                     <i className="icon-wrench" />
-                  </Link>)
+                  </Link>
                 ) : product.stock && product.stock > 0 ? (
                   <button
                     onClick={() => dispatch(addToCart(product))}
@@ -76,38 +72,6 @@ const ProductGridFive = ({
                     <i className="icon-basket-loaded" />
                   </button>
                 )}
-              </li>
-              <li>
-                <button
-                  onClick={
-                    compareItem !== undefined
-                      ? () => dispatch(deleteFromCompare(product.id))
-                      : () => dispatch(addToCompare(product))
-                  }
-                  className={compareItem !== undefined ? "active" : ""}
-                >
-                  <i className="icon-shuffle" />
-                </button>
-              </li>
-              <li>
-                <button
-                  onClick={() => setModalShow(true)}
-                  className="d-none d-lg-block"
-                >
-                  <i className="icon-magnifier-add" />
-                </button>
-              </li>
-              <li>
-                <button
-                  onClick={
-                    wishlistItem !== undefined
-                      ? () => dispatch(deleteFromWishlist(product.id))
-                      : () => dispatch(addToWishlist(product))
-                  }
-                  className={wishlistItem !== undefined ? "active" : ""}
-                >
-                  <i className="icon-heart" />
-                </button>
               </li>
             </ul>
           </div>

@@ -55,7 +55,7 @@ const MobileCategoryMenuNav = ({ getActiveStatus }) => {
           <Link href="/shop/grid-left-sidebar">Spinal Needles</Link>
         </li>
         <li>
-          <Link href="/shop/grid-left-sidebar">Grounding Pads</Link>
+          <Link href="/shop/grid-left-sidebar">Gloves</Link>
         </li>
       </ul>
     </nav>

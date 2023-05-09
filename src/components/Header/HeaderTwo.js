@@ -70,11 +70,11 @@ const HeaderTwo = ({ navPositionClass }) => {
                     <div className="custom-select-wrapper">
                       <select className="first-null">
                         <option value>All Category</option>
-                        <option value="Dresses">Dresses</option>
-                        <option value="Shirt-Tops">Shirt &amp; Tops</option>
-                        <option value="T-Shirt">T-Shirt</option>
-                        <option value="Pants">Pants</option>
-                        <option value="Jeans">Jeans</option>
+                        <option value="Dresses">RF Cannulas</option>
+                        <option value="Shirt-Tops">RF Electrodes</option>
+                        <option value="T-Shirt">Epidurals</option>
+                        <option value="Pants">Spinal Needles</option>
+                        <option value="Jeans">Gloves</option>
                       </select>
                     </div>
                   </div>
