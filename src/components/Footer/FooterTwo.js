@@ -29,7 +29,7 @@ const FooterTwo = () => {
                 <div className="widget">
                   <div className="footer-logo">
                     <Link href="/">
-                      <img src="/assets/images/logo_dark.png" alt="logo" />
+                      <img src="/assets/images/logo_light.png" alt="logo" />
                     </Link>
                   </div>
                   <p style={{ color: "white" }}>
