@@ -63,7 +63,7 @@ const HeaderTwo = ({ navPositionClass }) => {
                 alt="logo"
               />
             </Link>
-            <div className="product-search-form d-none d-lg-block">
+            {/* <div className="product-search-form d-none d-lg-block">
               <form>
                 <div className="input-group">
                   <div className="input-group-prepend">
@@ -89,7 +89,7 @@ const HeaderTwo = ({ navPositionClass }) => {
                   </button>
                 </div>
               </form>
-            </div>
+            </div> */}
             <div className="contact-phone">
               <FiPhoneCall />
               <span>123-456-7689</span>

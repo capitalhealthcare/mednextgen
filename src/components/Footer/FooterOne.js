@@ -9,7 +9,7 @@ import {
   IoLogoInstagram,
   IoIosPhonePortrait,
   IoIosMailOpen,
-  IoIosPin
+  IoIosPin,
 } from "react-icons/io";
 import { FaHeart } from "react-icons/fa";
 import { SubscribeEmail } from "../Newsletter";
@@ -17,24 +17,6 @@ import { SubscribeEmail } from "../Newsletter";
 const FooterOne = () => {
   return (
     <Fragment>
-      <div className="bg--default space-pt--60 space-pb--60">
-        <Container>
-          <Row className="align-items-center">
-            <Col md={6}>
-              <h3 className="newsletter-title text-white mb-md-0">
-                Subscribe Our Newsletter
-              </h3>
-            </Col>
-            <Col md={6}>
-              <SubscribeEmail
-                mailchimpUrl="https://devitems.us11.list-manage.com/subscribe/post?u=6bbb9b6f5827bd842d9640c82&amp;id=05d85f18ef"
-                alertColor="#fff"
-              />
-            </Col>
-          </Row>
-        </Container>
-      </div>
-
       <footer className="footer-dark">
         <div className="footer-top">
           <Container>
@@ -43,9 +25,7 @@ const FooterOne = () => {
                 <div className="widget">
                   <div className="footer-logo">
                     <Link href="/">
-
                       <img src="/assets/images/logo_light.png" alt="logo" />
-
                     </Link>
                   </div>
                   <p>
@@ -88,29 +68,19 @@ const FooterOne = () => {
                   <h6 className="widget-title">Useful Links</h6>
                   <ul className="widget-links">
                     <li>
-                      <Link href="/other/about-us">
-                        About Us
-                      </Link>
+                      <Link href="/other/about-us">About Us</Link>
                     </li>
                     <li>
-                      <Link href="/other/faq">
-                        FAQ
-                      </Link>
+                      <Link href="/other/faq">FAQ</Link>
                     </li>
                     <li>
-                      <Link href="/">
-                        Location
-                      </Link>
+                      <Link href="/">Location</Link>
                     </li>
                     <li>
-                      <Link href="/">
-                        Affiliates
-                      </Link>
+                      <Link href="/">Affiliates</Link>
                     </li>
                     <li>
-                      <Link href="/other/contact-us">
-                        Contact
-                      </Link>
+                      <Link href="/other/contact-us">Contact</Link>
                     </li>
                   </ul>
                 </div>
@@ -120,29 +90,19 @@ const FooterOne = () => {
                   <h6 className="widget-title">Category</h6>
                   <ul className="widget-links">
                     <li>
-                      <Link href="/shop/grid-left-sidebar">
-                        Men
-                      </Link>
+                      <Link href="/shop/grid-left-sidebar">Men</Link>
                     </li>
                     <li>
-                      <Link href="/shop/grid-left-sidebar">
-                        Woman
-                      </Link>
+                      <Link href="/shop/grid-left-sidebar">Woman</Link>
                     </li>
                     <li>
-                      <Link href="/shop/grid-left-sidebar">
-                        Kids
-                      </Link>
+                      <Link href="/shop/grid-left-sidebar">Kids</Link>
                     </li>
                     <li>
-                      <Link href="/shop/grid-left-sidebar">
-                        Best Seller
-                      </Link>
+                      <Link href="/shop/grid-left-sidebar">Best Seller</Link>
                     </li>
                     <li>
-                      <Link href="/shop/grid-left-sidebar">
-                        New Arrivals
-                      </Link>
+                      <Link href="/shop/grid-left-sidebar">New Arrivals</Link>
                     </li>
                   </ul>
                 </div>
@@ -152,29 +112,19 @@ const FooterOne = () => {
                   <h6 className="widget-title">My Account</h6>
                   <ul className="widget-links">
                     <li>
-                      <Link href="/other/my-account">
-                        My Account
-                      </Link>
+                      <Link href="/other/my-account">My Account</Link>
                     </li>
                     <li>
-                      <Link href="/">
-                        Discount
-                      </Link>
+                      <Link href="/">Discount</Link>
                     </li>
                     <li>
-                      <Link href="/">
-                        Returns
-                      </Link>
+                      <Link href="/">Returns</Link>
                     </li>
                     <li>
-                      <Link href="/">
-                        Orders History
-                      </Link>
+                      <Link href="/">Orders History</Link>
                     </li>
                     <li>
-                      <Link href="/">
-                        Order Tracking
-                      </Link>
+                      <Link href="/">Order Tracking</Link>
                     </li>
                   </ul>
                 </div>

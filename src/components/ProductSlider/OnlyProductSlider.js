@@ -40,7 +40,7 @@ const ProductSliderNine = ({ title, products }) => {
           <Col xl={12} lg={12}>
             <div className="section-title section-title--style-two heading-s1 d-flex justify-content-between align-items-center space-mb--30">
               <h4>{title}</h4>
-              <Link href="/shop/grid-left-sidebar" className="text-default">
+              <Link href="/products" className="text-default">
                 <IoIosFlash />
                 View All
               </Link>

@@ -43,19 +43,19 @@ const MobileCategoryMenuNav = ({ getActiveStatus }) => {
     >
       <ul>
         <li>
-          <Link href="/shop/grid-left-sidebar">RF Cannulas</Link>
+          <Link href="/category/rf-cannulas">RF Cannulas</Link>
         </li>
         <li>
-          <Link href="/shop/grid-left-sidebar">RF Electrodes</Link>
+          <Link href="/category/rf-electrodes">RF Electrodes</Link>
         </li>
         <li>
-          <Link href="/shop/grid-left-sidebar">Epidurals</Link>
+          <Link href="/category/epidurals">Epidurals</Link>
         </li>
         <li>
-          <Link href="/shop/grid-left-sidebar">Spinal Needles</Link>
+          <Link href="/category/spinal-needles">Spinal Needles</Link>
         </li>
         <li>
-          <Link href="/shop/grid-left-sidebar">Gloves</Link>
+          <Link href="/category/gloves">Gloves</Link>
         </li>
       </ul>
     </nav>

@@ -6,42 +6,42 @@ import { IoIosMenu, IoIosArrowForward } from "react-icons/io";
 const CategoryMenu = () => {
   const [categoryMenuExpandStatus, setCategoryMenuExpandStatus] =
     useState(true);
-  const [categoryMenuItemExpandStatus, setCategoryMenuItemExpandStatus] =
-    useState(false);
+  // const [categoryMenuItemExpandStatus, setCategoryMenuItemExpandStatus] =
+  //   useState(false);
   return (
     <div className="header-categories-wrap">
       <button
         className="category-menu-trigger"
         onClick={() => setCategoryMenuExpandStatus(!categoryMenuExpandStatus)}
       >
-        <IoIosMenu /> ALL CATEGORIES
+        <IoIosMenu />Pain Management Supplies
       </button>
       <nav className="category-menu dark-skin">
         <SlideDown closed={categoryMenuExpandStatus ? false : true}>
           <ul>
             <li>
-              <Link href="/shop/grid-left-sidebar" className="nav-link">
-                <i className="flaticon-sunglasses"></i> <span>RF Cannulas</span>
+              <Link href="/category/rf-cannulas" className="nav-link">
+                <i className=""></i> <span>RF Cannulas</span>
               </Link>
             </li>
             <li>
-              <Link href="/shop/grid-left-sidebar" className="nav-link">
-                <i className="flaticon-jacket"></i> <span>RF Electrodes</span>
+              <Link href="/category/rf-electrodes" className="nav-link">
+                <i className=""></i> <span>RF Electrodes</span>
               </Link>
             </li>
             <li>
-              <Link href="/shop/grid-left-sidebar" className="nav-link">
-                <i className="flaticon-sneakers"></i> <span>Epidurals</span>
+              <Link href="/category/epidurals" className="nav-link">
+                <i className=""></i> <span>Epidurals</span>
               </Link>
             </li>
             <li>
-              <Link href="/shop/grid-left-sidebar" className="nav-link">
-                <i className="flaticon-watch"></i> <span>Spinal Needles</span>
+              <Link href="/category/spinal-needles" className="nav-link">
+                <i className=""></i> <span>Spinal Needles</span>
               </Link>
             </li>
             <li>
-              <Link href="/shop/grid-left-sidebar" className="nav-link">
-                <i className="flaticon-watch"></i> <span>Gloves</span>
+              <Link href="/category/gloves" className="nav-link">
+                <i className=""></i> <span>Gloves</span>
               </Link>
             </li>
             {/* <SlideDown closed={categoryMenuItemExpandStatus ? false : true}>

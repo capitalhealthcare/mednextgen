@@ -83,7 +83,7 @@ const ProductDescription = ({
             <AiOutlineReload /> 30 Days Return Policy
           </li>
           <li>
-            <GiSwapBag /> Cash on Delivery available
+            <GiSwapBag /> Cash on Delivery availablesssssssssss
           </li>
         </ul>
       </div>
@@ -91,7 +91,7 @@ const ProductDescription = ({
       {product.variation ? (
         <div className="product-content__size-color">
           <div className="product-content__color space-mb--10">
-            <div className="product-content__color__title">Color</div>
+            <div className="product-content__color__title" style={{color:"black"}}>Color</div>
             <div className="product-content__color__content">
               {product.variation.map((single, i) => {
                 return (
@@ -121,7 +121,7 @@ const ProductDescription = ({
             </div>
           </div>
           <div className="product-content__size space-mb--20">
-            <div className="product-content__size__title">Size</div>
+            <div className="product-content__size__title" style={{color:"black"}}>Size</div>
             <div className="product-content__size__content">
               {product.variation &&
                 product.variation.map((single) => {

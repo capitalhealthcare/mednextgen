@@ -1,6 +1,6 @@
 import { useSelector } from "react-redux";
 import { LayoutTwo } from "../layouts";
-import { getProducts } from "../lib/product";
+import { getProducts,getSortedProducts } from "../lib/product";
 import { BannerTwo, BannerThree } from "../components/Banner";
 import { HeroSliderTwo } from "../components/HeroSlider";
 import { IconBoxOne } from "../components/IconBox";
@@ -22,7 +22,8 @@ const FashionTwo = () => {
   const featuredProducts = getProducts(products, "fashion", "featured", 8);
   const bestSellerProducts = getProducts(products, "fashion", "popular", 10);
   const saleProducts = getProducts(products, "fashion", "sale", 8);
-  const trendingProducts = getProducts(products, "rf-cannulas", "new", 10);
+  let product = products.slice(0,8)
+  const trendingProducts = getSortedProducts(product, "","");
 
   return (
     <LayoutTwo navPositionClass="justify-content-start">
