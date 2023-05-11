@@ -34,7 +34,7 @@ const FashionTwo = () => {
       {/* product slider */}
       <OnlyProductSlider title="Products" products={trendingProducts} />
       {/* banner */}
-      <BannerTwo />
+      {/* <BannerTwo /> */}
       {/* <CountdownOne
         backgroundImage="/assets/images/banner/furniture_banner3.jpg"
         // title="Sale 40% Off"
@@ -43,11 +43,11 @@ const FashionTwo = () => {
         dateTime="July 07, 2024 12:12:00"
       /> */}
       {/* banner */}
-      <BannerThree />
+      {/* <BannerThree /> */}
       {/* testimonial */}
-      <TestimonialOne testimonialData={testimonialOneData} />
+      {/* <TestimonialOne testimonialData={testimonialOneData} /> */}
       {/* blog grid */}
-      <BlogGrid />
+      {/* <BlogGrid /> */}
     </LayoutTwo>
   );
 };
