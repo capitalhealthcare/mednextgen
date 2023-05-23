@@ -19,29 +19,29 @@ const Navigation = ({ positionClass }) => {
         </li>
 
         <li>
-          <Link href="/other/about-us" className="nav-link">
+          <Link href="/about-us" className="nav-link">
             About Us
           </Link>
         </li>
         <li>
-          <Link href="/other/contact-us" className="nav-link">
+          <Link href="/contact-us" className="nav-link">
             CONTACT US
           </Link>
         </li>
         <li>
-          <Link href="/other/faq" className="nav-link">
+          <Link href="/faq" className="nav-link">
             F.A.Q
           </Link>
         </li>
 
         <li>
-          <Link href="/other/terms" className="nav-link">
+          <Link href="/terms" className="nav-link">
             Terms & Conditions
           </Link>
         </li>
 
         <li>
-          <Link href="/blog/list-left-sidebar" className="nav-link">
+          <Link href="/blogs" className="nav-link">
             BLOG
           </Link>
         </li>

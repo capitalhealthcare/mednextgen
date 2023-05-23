@@ -1,22 +1,29 @@
+import { useState } from 'react';
 import Link from "next/link";
 import { Container, Row, Col } from "react-bootstrap";
 import { useSelector } from "react-redux";
-import { getDiscountPrice } from "../../lib/product";
+import { getDiscountPrice } from "../lib/product";
 import { IoMdCash } from "react-icons/io";
-import { LayoutOne } from "../../layouts";
-import { BreadcrumbOne } from "../../components/Breadcrumb";
+import { LayoutOne } from "../layouts";
+import { BreadcrumbOne } from "../components/Breadcrumb";
+
 
 const Checkout = () => {
+  const [redirecting, setRedirecting] = useState(false);
+
   const { cartItems } = useSelector((state) => state.cart);
   let cartTotalPrice = 0;
 
+ 
   return (
     <LayoutOne>
       {/* breadcrumb */}
       <BreadcrumbOne pageTitle="Checkout">
         <ol className="breadcrumb justify-content-md-end">
           <li className="breadcrumb-item">
-            <Link href="/" style={{ color: "rgb(247, 156, 29)" }}>Home</Link>
+            <Link href="/" style={{ color: "rgb(247, 156, 29)" }}>
+              Home
+            </Link>
           </li>
           <li className="breadcrumb-item active text-light">Checkout</li>
         </ol>
@@ -266,8 +273,13 @@ const Checkout = () => {
                       </div>
                     </div>
                   </div>
-                  <button className="btn btn-fill-out btn-block">
-                    Place Order
+                  <button
+                    // onClick={redirectToCheckout}
+                    // disabled={redirecting}
+                    className="btn btn-fill-out btn-block"
+                  >
+                    {/* Place Order */}
+                    {redirecting ? "Redirecting..." : "Go to Checkout"}
                   </button>
                 </div>
               </Col>

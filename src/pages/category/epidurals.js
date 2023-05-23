@@ -31,9 +31,9 @@ const GridLeftSidebar = () => {
       <BreadcrumbOne pageTitle="Epidurals">
         <ol className="breadcrumb justify-content-md-end">
           <li className="breadcrumb-item">
-            <Link href="/">Home</Link>
+            <Link href="/" style={{ color: "rgb(247, 156, 29)" }}>Home</Link>
           </li>
-          <li className="breadcrumb-item active">Epidurals</li>
+          <li className="breadcrumb-item active text-light">Epidurals</li>
         </ol>
       </BreadcrumbOne>
       <div className="shop-content space-pt--r100 space-pb--r100">

@@ -7,7 +7,7 @@ const BreadcrumbOne = ({ pageTitle, children }) => {
         <Row className="align-items-center">
           <Col md={6}>
             <div className="page-title">
-              <h1 className="breadcrumb-title">{pageTitle}</h1>
+              <h1 className="breadcrumb-title text-light">{pageTitle}</h1>
             </div>
           </Col>
           <Col md={6}>{children}</Col>

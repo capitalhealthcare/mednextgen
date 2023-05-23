@@ -35,9 +35,9 @@ const GridLeftSidebar = () => {
       <BreadcrumbOne pageTitle="RF Electrodes">
         <ol className="breadcrumb justify-content-md-end">
           <li className="breadcrumb-item">
-            <Link href="/">Home</Link>
+            <Link href="/" style={{ color: "rgb(247, 156, 29)" }}>Home</Link>
           </li>
-          <li className="breadcrumb-item active">RF Electrodes</li>
+          <li className="breadcrumb-item active text-light">RF Electrodes</li>
         </ol>
       </BreadcrumbOne>
       <div className="shop-content space-pt--r100 space-pb--r100">

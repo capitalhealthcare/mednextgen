@@ -41,7 +41,7 @@ const HeroSliderTwo = ({ heroSliderData }) => {
                             <h5 className="mb-3 font-weight-light sub-title">
                               {single.subtitle}
                             </h5>
-                            <h2 className="space-mb--20 title">
+                            <h2 className="space-mb--20 title text-dark">
                               {single.title}
                             </h2>
                             {/* <Link

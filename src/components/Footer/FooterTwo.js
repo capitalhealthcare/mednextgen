@@ -69,13 +69,13 @@ const FooterTwo = () => {
                       <Link href="/">Home</Link>
                     </li>
                     <li>
-                      <Link href="/other/about-us">About Us</Link>
+                      <Link href="/about-us">About Us</Link>
                     </li>
                     <li>
-                      <Link href="/other/contact-us">Contact Us</Link>
+                      <Link href="/contact-us">Contact Us</Link>
                     </li>
                     <li>
-                      <Link href="/other/faq">FAQ</Link>
+                      <Link href="/faq">FAQ</Link>
                     </li>
 
                     <li>
@@ -83,7 +83,7 @@ const FooterTwo = () => {
                     </li>
 
                     <li>
-                      <Link href="/other/contact-us">Terms & Conditions</Link>
+                      <Link href="/terms">Terms & Conditions</Link>
                     </li>
                   </ul>
                 </div>
@@ -95,27 +95,28 @@ const FooterTwo = () => {
                   </h6>
                   <ul className="widget-links">
                     <li>
-                      <Link href="/">Grounding Pads</Link>
+                      <Link href="/category/rf-cannulas">RF Cannulas</Link>
                     </li>
                     <li>
-                      <Link href="/">Spinal Needles</Link>
+                      <Link href="/category/rf-electrodes">RF Electrodes</Link>
                     </li>
                     <li>
-                      <Link href="/">RF Electrodes</Link>
+                      <Link href="/category/epidurals">Epidurals</Link>
                     </li>
                     <li>
-                      <Link href="/other/my-account">RF Cannulas</Link>
+                      <Link href="/category/spinal-needles">Spinal Needles</Link>
                     </li>
-
                     <li>
-                      <Link href="/">Epidurals</Link>
+                      <Link href="/category/gloves">Gloves</Link>
                     </li>
                   </ul>
                 </div>
               </Col>
               <Col lg={4} md={4} sm={12}>
                 <div className="widget">
-                  <h6 className="widget-title" style={{ color: "#F79C1D" }}>Instagram</h6>
+                  <h6 className="widget-title" style={{ color: "#F79C1D" }}>
+                    Instagram
+                  </h6>
                   <ul className="widget-instafeed widget-instafeed--col4">
                     <li>
                       <a href="#">

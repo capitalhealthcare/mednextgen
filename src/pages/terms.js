@@ -1,6 +1,6 @@
 import Link from "next/link";
-import { LayoutOne } from "../../layouts";
-import { BreadcrumbOne } from "../../components/Breadcrumb";
+import { LayoutOne } from "../layouts";
+import { BreadcrumbOne } from "../components/Breadcrumb";
 import { Container, Row, Col } from "react-bootstrap";
 
 const Terms = () => {
