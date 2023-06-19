@@ -2,7 +2,7 @@
   {
     "id": "1",
     "createDate": "Mar 11 2020 10:01:00 AM",
-    "sku": "asdf101",
+    "sku": "mednextgen001",
     "name": "Curved Sharp RF Cannula | Curved Active Tip",
     "slug": "curved-sharp-rf-cannula-curved-active-tip",
     "price": 330,
@@ -10,78 +10,11 @@
     "featured": false,
     "new": true,
     "rating": 4,
-    "stock": 10,
     "ratingCount": 5,
-    "saleCount": 90,
+    "stock": 50,
+    "saleCount": 0,
     "category": ["rf-cannulas"],
     "tag": ["rf-cannulas"],
-    "variation": [
-      {
-        "color": "brown",
-        "colorCode": "#87554b",
-        "image": "/assets/images/product/fashion/1.jpg",
-        "size": [
-          {
-            "name": "x",
-            "stock": 3
-          },
-          {
-            "name": "m",
-            "stock": 2
-          },
-          {
-            "name": "xl",
-            "stock": 5
-          }
-        ]
-      },
-      {
-        "color": "black",
-        "colorCode": "#333333",
-        "image": "/assets/images/product/fashion/2.jpg",
-        "size": [
-          {
-            "name": "x",
-            "stock": 4
-          },
-          {
-            "name": "m",
-            "stock": 7
-          },
-          {
-            "name": "xl",
-            "stock": 9
-          },
-          {
-            "name": "xxl",
-            "stock": 1
-          }
-        ]
-      },
-      {
-        "color": "red",
-        "colorCode": "#da323f",
-        "image": "/assets/images/product/fashion/3.jpg",
-        "size": [
-          {
-            "name": "x",
-            "stock": 1
-          },
-          {
-            "name": "m",
-            "stock": 2
-          },
-          {
-            "name": "xl",
-            "stock": 4
-          },
-          {
-            "name": "xxl",
-            "stock": 0
-          }
-        ]
-      }
-    ],
     "thumbImage": [
       "/assets/images/rf-cannulas/curved/1.jpg",
       "/assets/images/rf-cannulas/curved/2.jpg"
@@ -99,19 +32,19 @@
   {
     "id": "2",
     "createDate": "Mar 12 2020 10:02:00 AM",
-    "sku": "asdf102",
+    "sku": "mednextgen002",
     "name": "Straight Sharp RF Cannula | Straight Active Tip",
     "slug": "straight-sharp-rf-cannula-straight-active-tip",
-    "price": 18,
+    "price": 180,
     "discount": 0,
     "featured": false,
     "new": true,
     "rating": 3,
     "ratingCount": 6,
-    "saleCount": 91,
+    "stock": 50,
+    "saleCount": 0,
     "category": ["rf-cannulas"],
     "tag": ["rf-cannulas"],
-    "stock": 10,
     "thumbImage": [
       "/assets/images/rf-cannulas/straight/1.jpg",
       "/assets/images/rf-cannulas/straight/2.jpg"
@@ -129,16 +62,17 @@
   {
     "id": "3",
     "createDate": "Mar 13 2020 10:03:00 AM",
-    "sku": "asdf103",
+    "sku": "mednextgen003",
     "name": "RF Electrodes | Reusable",
     "slug": "rf-electrodes-reusable",
-    "price": 19,
+    "price": 119,
     "discount": 0,
     "featured": false,
     "new": true,
     "rating": 5,
     "ratingCount": 7,
-    "saleCount": 92,
+    "stock": 50,
+    "saleCount": 0,
     "category": ["rf-electrodes"],
     "tag": ["rf-electrodes"],
     "thumbImage": [
@@ -157,85 +91,19 @@
   {
     "id": "4",
     "createDate": "Mar 14 2020 10:04:00 AM",
-    "sku": "asdf104",
+    "sku": "mednextgen004",
     "name": "RF Electrodes | Disposable",
     "slug": "rf-electrodes-disposable",
-    "price": 20,
+    "price": 220,
     "discount": 0,
     "featured": false,
     "new": true,
     "rating": 4,
     "ratingCount": 8,
-    "saleCount": 93,
+    "stock": 50,
+    "saleCount": 0,
     "category": ["rf-electrodes"],
     "tag": ["rf-electrodes"],
-    "variation": [
-      {
-        "color": "brown",
-        "colorCode": "#87554b",
-        "image": "/assets/images/product/fashion/4.jpg",
-        "size": [
-          {
-            "name": "x",
-            "stock": 3
-          },
-          {
-            "name": "m",
-            "stock": 2
-          },
-          {
-            "name": "xl",
-            "stock": 5
-          }
-        ]
-      },
-      {
-        "color": "black",
-        "colorCode": "#333333",
-        "image": "/assets/images/product/fashion/5.jpg",
-        "size": [
-          {
-            "name": "x",
-            "stock": 4
-          },
-          {
-            "name": "m",
-            "stock": 7
-          },
-          {
-            "name": "xl",
-            "stock": 9
-          },
-          {
-            "name": "xxl",
-            "stock": 1
-          }
-        ]
-      },
-      {
-        "color": "red",
-        "colorCode": "#da323f",
-        "image": "/assets/images/product/fashion/6.jpg",
-        "size": [
-          {
-            "name": "x",
-            "stock": 1
-          },
-          {
-            "name": "m",
-            "stock": 2
-          },
-          {
-            "name": "xl",
-            "stock": 4
-          },
-          {
-            "name": "xxl",
-            "stock": 0
-          }
-        ]
-      }
-    ],
     "thumbImage": [
       "/assets/images/rf-electrodes/disposable/1.jpg",
       "/assets/images/rf-electrodes/disposable/2.jpg"
@@ -252,85 +120,19 @@
   {
     "id": "5",
     "createDate": "Mar 15 2020 10:05:00 AM",
-    "sku": "asdf105",
+    "sku": "mednextgen005",
     "name": "Epidural Needle (Tuohy)",
     "slug": "epidural-needle-tuohy",
-    "price": 21,
+    "price": 210,
     "discount": 0,
     "featured": false,
     "new": true,
     "rating": 3,
     "ratingCount": 9,
-    "saleCount": 94,
+    "stock": 50,
+    "saleCount": 0,
     "category": ["epidurals"],
     "tag": ["epidurals"],
-    "variation": [
-      {
-        "color": "brown",
-        "colorCode": "#87554b",
-        "image": "/assets/images/product/fashion/5.jpg",
-        "size": [
-          {
-            "name": "x",
-            "stock": 3
-          },
-          {
-            "name": "m",
-            "stock": 2
-          },
-          {
-            "name": "xl",
-            "stock": 5
-          }
-        ]
-      },
-      {
-        "color": "black",
-        "colorCode": "#333333",
-        "image": "/assets/images/product/fashion/6.jpg",
-        "size": [
-          {
-            "name": "x",
-            "stock": 4
-          },
-          {
-            "name": "m",
-            "stock": 7
-          },
-          {
-            "name": "xl",
-            "stock": 9
-          },
-          {
-            "name": "xxl",
-            "stock": 1
-          }
-        ]
-      },
-      {
-        "color": "red",
-        "colorCode": "#da323f",
-        "image": "/assets/images/product/fashion/7.jpg",
-        "size": [
-          {
-            "name": "x",
-            "stock": 1
-          },
-          {
-            "name": "m",
-            "stock": 2
-          },
-          {
-            "name": "xl",
-            "stock": 4
-          },
-          {
-            "name": "xxl",
-            "stock": 3
-          }
-        ]
-      }
-    ],
     "thumbImage": [
       "/assets/images/epidurals/1.jpg",
       "/assets/images/epidurals/2.jpg"
@@ -347,85 +149,19 @@
   {
     "id": "6",
     "createDate": "Mar 16 2020 10:06:00 AM",
-    "sku": "asdf106",
+    "sku": "mednextgen006",
     "name": "Spinal Needle – Quincke Tip",
     "slug": "spinal-needles",
-    "price": 22,
+    "price": 202,
     "discount": 0,
     "featured": false,
-    "new": false,
+    "new": true,
     "rating": 5,
     "ratingCount": 10,
-    "saleCount": 95,
+    "stock": 50,
+    "saleCount": 0,
     "category": ["spinal-needles"],
     "tag": ["spinal-needles"],
-    "variation": [
-      {
-        "color": "brown",
-        "colorCode": "#87554b",
-        "image": "/assets/images/product/fashion/6.jpg",
-        "size": [
-          {
-            "name": "x",
-            "stock": 3
-          },
-          {
-            "name": "m",
-            "stock": 2
-          },
-          {
-            "name": "xl",
-            "stock": 5
-          }
-        ]
-      },
-      {
-        "color": "black",
-        "colorCode": "#333333",
-        "image": "/assets/images/product/fashion/7.jpg",
-        "size": [
-          {
-            "name": "x",
-            "stock": 4
-          },
-          {
-            "name": "m",
-            "stock": 7
-          },
-          {
-            "name": "xl",
-            "stock": 9
-          },
-          {
-            "name": "xxl",
-            "stock": 1
-          }
-        ]
-      },
-      {
-        "color": "red",
-        "colorCode": "#da323f",
-        "image": "/assets/images/product/fashion/8.jpg",
-        "size": [
-          {
-            "name": "x",
-            "stock": 1
-          },
-          {
-            "name": "m",
-            "stock": 2
-          },
-          {
-            "name": "xl",
-            "stock": 4
-          },
-          {
-            "name": "xxl",
-            "stock": 3
-          }
-        ]
-      }
-    ],
     "thumbImage": [
       "/assets/images/spinal-needles/1.jpg",
       "/assets/images/spinal-needles/2.jpg"
@@ -444,7 +180,7 @@
   {
     "id": "7",
     "createDate": "Mar 17 2020 10:07:00 AM",
-    "sku": "asdf107",
+    "sku": "mednextgen007",
     "name": "Blue Nitrile Powder Free Gloves 4 mil",
     "slug": "nitrile-6-mil-non-exam-powder-free-100-box-blue",
     "price": 23,
@@ -453,77 +189,10 @@
     "new": true,
     "rating": 4,
     "ratingCount": 11,
-    "stock": 100,
-    "saleCount": 96,
+    "stock": 50,
+    "saleCount": 0,
     "category": ["gloves"],
     "tag": ["gloves"],
-    "variation": [
-      {
-        "color": "brown",
-        "colorCode": "#87554b",
-        "image": "/assets/images/product/fashion/7.jpg",
-        "size": [
-          {
-            "name": "x",
-            "stock": 3
-          },
-          {
-            "name": "m",
-            "stock": 2
-          },
-          {
-            "name": "xl",
-            "stock": 5
-          }
-        ]
-      },
-      {
-        "color": "black",
-        "colorCode": "#333333",
-        "image": "/assets/images/product/fashion/8.jpg",
-        "size": [
-          {
-            "name": "x",
-            "stock": 4
-          },
-          {
-            "name": "m",
-            "stock": 7
-          },
-          {
-            "name": "xl",
-            "stock": 9
-          },
-          {
-            "name": "xxl",
-            "stock": 1
-          }
-        ]
-      },
-      {
-        "color": "red",
-        "colorCode": "#da323f",
-        "image": "/assets/images/product/fashion/9.jpg",
-        "size": [
-          {
-            "name": "x",
-            "stock": 1
-          },
-          {
-            "name": "m",
-            "stock": 2
-          },
-          {
-            "name": "xl",
-            "stock": 4
-          },
-          {
-            "name": "xxl",
-            "stock": 3
-          }
-        ]
-      }
-    ],
     "thumbImage": [
       "/assets/images/gloves/nitrile-gloves/1.jpg",
       "/assets/images/gloves/nitrile-gloves/2.jpg"
@@ -538,10 +207,10 @@
   {
     "id": "8",
     "createDate": "Mar 18 2020 10:08:00 AM",
-    "sku": "asdf108",
+    "sku": "mednextgen008",
     "name": "Surgical sterile gloves",
     "slug": "surgical-sterile-glove",
-    "price": 24,
+    "price": 204,
     "discount": 0,
     "featured": false,
     "new": true,
@@ -551,73 +220,6 @@
     "saleCount": 97,
     "category": ["gloves"],
     "tag": ["gloves"],
-    "variation": [
-      {
-        "color": "brown",
-        "colorCode": "#87554b",
-        "image": "/assets/images/product/fashion/8.jpg",
-        "size": [
-          {
-            "name": "x",
-            "stock": 3
-          },
-          {
-            "name": "m",
-            "stock": 2
-          },
-          {
-            "name": "xl",
-            "stock": 5
-          }
-        ]
-      },
-      {
-        "color": "black",
-        "colorCode": "#333333",
-        "image": "/assets/images/product/fashion/9.jpg",
-        "size": [
-          {
-            "name": "x",
-            "stock": 4
-          },
-          {
-            "name": "m",
-            "stock": 7
-          },
-          {
-            "name": "xl",
-            "stock": 9
-          },
-          {
-            "name": "xxl",
-            "stock": 1
-          }
-        ]
-      },
-      {
-        "color": "red",
-        "colorCode": "#da323f",
-        "image": "/assets/images/product/fashion/10.jpg",
-        "size": [
-          {
-            "name": "x",
-            "stock": 1
-          },
-          {
-            "name": "m",
-            "stock": 2
-          },
-          {
-            "name": "xl",
-            "stock": 4
-          },
-          {
-            "name": "xxl",
-            "stock": 3
-          }
-        ]
-      }
-    ],
     "thumbImage": [
       "/assets/images/gloves/surgical-sterile-gloves/1.jpg",
       "/assets/images/gloves/surgical-sterile-gloves/2.jpg"

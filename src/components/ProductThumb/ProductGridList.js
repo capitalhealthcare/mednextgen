@@ -50,9 +50,7 @@ const ProductGridList = ({
         </div>
         <div className="product-grid__info">
           <h6 className="product-title">
-            <Link href={"/product/" + product.slug}>
-              {product.name}
-            </Link>
+            <Link href={"/product/" + product.slug}>{product.name}</Link>
           </h6>
           <div className="product-price">
             {product.discount ? (
@@ -65,33 +63,12 @@ const ProductGridList = ({
               <span className="price">${productPrice}</span>
             )}
           </div>
-          <div className="rating-wrap">
+          {/* <div className="rating-wrap">
             <ProductRating ratingValue={product.rating} />
             <span className="rating-num">({product.ratingCount})</span>
-          </div>
-
-          {product.variation ? (
-            <div className="product-switch-wrap">
-              <ul>
-                {product.variation.map((single, key) => {
-                  return (
-                    <li key={key}>
-                      <button
-                        style={{ backgroundColor: `${single.colorCode}` }}
-                        onClick={() => setColorImage(single.image)}
-                        className={colorImage === single.image ? "active" : ""}
-                      />
-                    </li>
-                  );
-                })}
-              </ul>
-            </div>
-          ) : (
-            ""
-          )}
+          </div> */}
         </div>
       </div>
-    
     </Fragment>
   );
 };
