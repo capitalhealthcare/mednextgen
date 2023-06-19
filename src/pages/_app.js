@@ -40,6 +40,7 @@ const MyApp = ({Component, ...rest}) => {
     <Fragment>
       <Head>
         <title>MedNextGen</title>
+        <link rel="icon" type="image/png" href="/assets/images/favicon.png"></link>
         <meta
           name="description"
           content="Oility is Powerful React Next JS Template For Any eCommerce Website. The template is built for sell Fashion Products, Shoes, Bags, Cosmetics, Clothes, Sunglasses, Furniture, Kids Products, Electronics, Stationery Products and Sporting Goods."

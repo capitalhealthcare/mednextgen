@@ -65,7 +65,7 @@ const HeaderTwo = ({ navPositionClass }) => {
             </Link>
             <div className="contact-phone">
               <FiPhoneCall />
-              <span>123-456-7689</span>
+              <span>+1 (469) 866-5222</span>
             </div>
           </div>
         </Container>

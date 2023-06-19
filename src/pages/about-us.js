@@ -27,11 +27,11 @@ const AboutUs = () => {
       {/* icon box */}
       <IconBoxTwo />
       {/* team member*/}
-      <TeamMemberOne teamMemberData={teamMemberOneData} />
+      {/* <TeamMemberOne teamMemberData={teamMemberOneData} /> */}
       {/* testimonial */}
-      <TestimonialOne testimonialData={testimonialOneData} />
+      {/* <TestimonialOne testimonialData={testimonialOneData} /> */}
       {/* icon box */}
-      <IconBoxOne />
+      {/* <IconBoxOne /> */}
     </LayoutOne>
   );
 };

@@ -11,9 +11,7 @@ const ContactUs = () => {
       <BreadcrumbOne pageTitle="Contact Us">
         <ol className="breadcrumb justify-content-md-end">
           <li className="breadcrumb-item">
-            <Link href="/">
-              Home
-            </Link>
+            <Link href="/">Home</Link>
           </li>
           <li className="breadcrumb-item active">Contact Us</li>
         </ol>
@@ -29,7 +27,7 @@ const ContactUs = () => {
                   </div>
                   <div className="contact-wrap__text">
                     <span>Address</span>
-                    <p>123 Street, Old Trafford, London, UK</p>
+                    <p>2071 N Collins Blvd Richardson TX 75080</p>
                   </div>
                 </div>
               </Col>
@@ -40,7 +38,9 @@ const ContactUs = () => {
                   </div>
                   <div className="contact-wrap__text">
                     <span>Email Address</span>
-                    <a href="mailto:info@sitename.com">info@yourmail.com </a>
+                    <a href="mailto:admin@mednextgen.com">
+                      admin@mednextgen.com
+                    </a>
                   </div>
                 </div>
               </Col>
@@ -51,7 +51,7 @@ const ContactUs = () => {
                   </div>
                   <div className="contact-wrap__text">
                     <span>Phone</span>
-                    <p>+ 457 789 789 65</p>
+                    <p>+1 (469) 866-5222</p>
                   </div>
                 </div>
               </Col>
@@ -141,7 +141,7 @@ const ContactUs = () => {
                 <div className="google-map">
                   <iframe
                     title="map"
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6777.000026107364!2d-74.08304414937152!3d40.83212940017352!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2f866a80dcc27%3A0x3e3160910d4d5045!2sHoliday%20Inn%20Express%20%26%20Suites%20Meadowlands%20Area!5e0!3m2!1sen!2sbd!4v1581852597883!5m2!1sen!2sbd"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3347.002225044616!2d-96.7221171!3d32.9773431!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864c1f30af23e6b7%3A0x7d04121ca34f4c79!2s2071%20N%20Collins%20Blvd%20a%2C%20Richardson%2C%20TX%2075080%2C%20USA!5e0!3m2!1sen!2s!4v1687165999746!5m2!1sen!2s"
                     allowFullScreen
                   />
                 </div>
