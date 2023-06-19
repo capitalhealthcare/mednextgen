@@ -29,7 +29,7 @@ const ProductGridListWrapper = ({ products, bottomSpace, layout }) => {
           );
 
           return (
-            <Col lg={4} sm={6} className={clsx(bottomSpace)}>
+            <Col lg={3} sm={6} className={clsx(bottomSpace)}>
               <ProductGridList
                 key={product.id}
                 product={product}
