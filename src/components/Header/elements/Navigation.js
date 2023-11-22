@@ -41,7 +41,7 @@ const Navigation = ({ positionClass }) => {
         </li>
 
         <li>
-          <Link href="/blogs" className="nav-link">
+          <Link href="/blog" className="nav-link">
             BLOG
           </Link>
         </li>

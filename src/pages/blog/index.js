@@ -1,31 +1,27 @@
 import Link from "next/link";
-import { Container, Row, Col } from "react-bootstrap";
 import { LayoutOne } from "../../layouts";
-import { Sidebar, BlogSinglePostVideo } from "../../components/Blog";
 import { BreadcrumbOne } from "../../components/Breadcrumb";
+import { Container, Row, Col } from "react-bootstrap";
+import { Sidebar, BlogPostGridWrapper } from "../../components/Blog";
 
-const PostVideo = () => {
+const GridLeftSidebar = () => {
   return (
     <LayoutOne>
       {/* breadcrumb */}
-      <BreadcrumbOne pageTitle="Post Video">
+      <BreadcrumbOne pageTitle="Blog">
         <ol className="breadcrumb justify-content-md-end">
           <li className="breadcrumb-item">
-            <Link href="/">
-              Home
-            </Link>
+            <Link href="/">Home</Link>
           </li>
-          <li className="breadcrumb-item active">Post Video</li>
+          <li className="breadcrumb-item active">Blog</li>
         </ol>
       </BreadcrumbOne>
       <div className="blog-content space-pt--r100 space-pb--r100">
         <Container>
           <Row>
-            <Col lg={9}>
-              <BlogSinglePostVideo />
-            </Col>
-            <Col lg={3} className="mt-4 pt-2 mt-lg-0 pt-lg-0">
-              <Sidebar />
+            <Col lg={12}>
+              {/* blog post grid wrapper */}
+              <BlogPostGridWrapper />
             </Col>
           </Row>
         </Container>
@@ -34,4 +30,4 @@ const PostVideo = () => {
   );
 };
 
-export default PostVideo;
+export default GridLeftSidebar;

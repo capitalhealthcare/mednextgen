@@ -55,7 +55,7 @@ const MobileMenuNav = ({ getActiveStatus }) => {
           <Link href="/faq">F.A.Q</Link>
         </li>
         <li>
-          <Link href="/blogs">Blog</Link>
+          <Link href="/blog">Blog</Link>
         </li>{" "}
         <li>
           <Link href="/terms">Terms & Conditions</Link>
