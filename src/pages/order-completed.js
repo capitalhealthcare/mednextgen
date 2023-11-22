@@ -32,7 +32,7 @@ const OrderCompleted = () => {
                   will be completed within 3-6 hours. You will receive an email
                   confirmation when your order is completed.
                 </p>
-                <Link href="/shop/grid-left-sidebar" className="btn btn-fill-out">
+                <Link href="/products" className="btn btn-fill-out">
                   Continue Shopping
                 </Link>
               </div>

@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState } from "react";
 import Link from "next/link";
 import { Container, Row, Col } from "react-bootstrap";
 import { useSelector } from "react-redux";
@@ -7,14 +7,12 @@ import { IoMdCash } from "react-icons/io";
 import { LayoutOne } from "../layouts";
 import { BreadcrumbOne } from "../components/Breadcrumb";
 
-
 const Checkout = () => {
   const [redirecting, setRedirecting] = useState(false);
 
   const { cartItems } = useSelector((state) => state.cart);
   let cartTotalPrice = 0;
 
- 
   return (
     <LayoutOne>
       {/* breadcrumb */}
@@ -207,80 +205,6 @@ const Checkout = () => {
                       </tfoot>
                     </table>
                   </div>
-                  <div className="payment-method">
-                    <div className="heading-s1 space-mb--20">
-                      <h4>Payment</h4>
-                    </div>
-                    <div className="payment-option space-mb--20">
-                      <div className="custom-radio space-mb--20">
-                        <input
-                          className="form-check-input"
-                          required
-                          type="radio"
-                          name="payment-option"
-                          id="exampleRadios3"
-                          defaultValue="option3"
-                          defaultChecked
-                        />
-                        <label
-                          className="form-check-label"
-                          htmlFor="exampleRadios3"
-                        >
-                          Direct Bank Transfer
-                        </label>
-                        <p data-method="option3" className="payment-text">
-                          There are many variations of passages of Lorem Ipsum
-                          available, but the majority have suffered alteration.{" "}
-                        </p>
-                      </div>
-                      <div className="custom-radio space-mb--20">
-                        <input
-                          className="form-check-input"
-                          type="radio"
-                          name="payment-option"
-                          id="exampleRadios4"
-                          defaultValue="option4"
-                        />
-                        <label
-                          className="form-check-label"
-                          htmlFor="exampleRadios4"
-                        >
-                          Check Payment
-                        </label>
-                        <p data-method="option4" className="payment-text">
-                          Please send your cheque to Store Name, Store Street,
-                          Store Town, Store State / County, Store Postcode.
-                        </p>
-                      </div>
-                      <div className="custom-radio space-mb--20">
-                        <input
-                          className="form-check-input"
-                          type="radio"
-                          name="payment-option"
-                          id="exampleRadios5"
-                          defaultValue="option5"
-                        />
-                        <label
-                          className="form-check-label"
-                          htmlFor="exampleRadios5"
-                        >
-                          Paypal
-                        </label>
-                        <p data-method="option5" className="payment-text">
-                          Pay via PayPal; you can pay with your credit card if
-                          you don't have a PayPal account.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <button
-                    // onClick={redirectToCheckout}
-                    // disabled={redirecting}
-                    className="btn btn-fill-out btn-block"
-                  >
-                    {/* Place Order */}
-                    {redirecting ? "Redirecting..." : "Go to Checkout"}
-                  </button>
                 </div>
               </Col>
             </Row>
@@ -295,10 +219,7 @@ const Checkout = () => {
                     <p className="space-mb--30">
                       No items found in cart to checkout
                     </p>
-                    <Link
-                      href="/shop/grid-left-sidebar"
-                      className="btn btn-fill-out"
-                    >
+                    <Link href="/products" className="btn btn-fill-out">
                       Shop Now
                     </Link>
                   </div>
