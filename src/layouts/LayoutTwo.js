@@ -1,6 +1,6 @@
 import { Fragment } from "react";
 import { HeaderTwo } from "../components/Header";
-import { FooterTwo } from "../components/Footer";
+import Footer from "../components/Footer";
 import ScrollToTop from "../components/scroll-to-top";
 
 const LayoutTwo = ({ children, navPositionClass }) => {
@@ -8,7 +8,7 @@ const LayoutTwo = ({ children, navPositionClass }) => {
     <Fragment>
       <HeaderTwo navPositionClass={navPositionClass} />
       {children}
-      <FooterTwo />
+      <Footer />
       <ScrollToTop />
     </Fragment>
   );

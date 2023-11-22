@@ -5,7 +5,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import Paginator from "react-hooks-paginator";
 import { LayoutOne } from "../../layouts";
 import { BreadcrumbOne } from "../../components/Breadcrumb";
-import { Sidebar, ShopHeader, ShopProducts } from "../../components/Shop";
+import { ShopProducts } from "../../components/Shop";
 import { getSortedProducts } from "../../lib/product";
 
 const GridLeftSidebar = () => {
@@ -31,7 +31,9 @@ const GridLeftSidebar = () => {
       <BreadcrumbOne pageTitle="Gloves">
         <ol className="breadcrumb justify-content-md-end">
           <li className="breadcrumb-item">
-            <Link href="/" style={{ color: "rgb(247, 156, 29)" }}>Home</Link>
+            <Link href="/" style={{ color: "rgb(247, 156, 29)" }}>
+              Home
+            </Link>
           </li>
           <li className="breadcrumb-item active text-light">Gloves</li>
         </ol>
@@ -39,7 +41,7 @@ const GridLeftSidebar = () => {
       <div className="shop-content space-pt--r100 space-pb--r100">
         <Container>
           <Row>
-            <Col lg={9}>
+            <Col lg={12}>
               {/* shop products */}
               <ShopProducts layout={"grid"} products={currentData} />
 
@@ -57,10 +59,6 @@ const GridLeftSidebar = () => {
                   pageNextText="»"
                 />
               </div>
-            </Col>
-            <Col lg={3} className="order-lg-first mt-4 pt-2 mt-lg-0 pt-lg-0">
-              {/* sidebar */}
-              <Sidebar products={products} />
             </Col>
           </Row>
         </Container>
