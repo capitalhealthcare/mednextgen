@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import { LayoutOne } from "../../layouts";
 import { BreadcrumbOne } from "../../components/Breadcrumb";
 import { Fragment } from "react";
-import { FaRegComments, FaCalendarAlt, FaQuoteRight } from "react-icons/fa";
+import { FaQuoteRight } from "react-icons/fa";
 const PostLeftSidebar = () => {
   return (
     <LayoutOne>
@@ -25,19 +25,6 @@ const PostLeftSidebar = () => {
                   <h2 className="blog-title">
                     But I must explain to you how all this mistaken idea
                   </h2>
-                  <ul className="blog-meta">
-                    <li>
-                      <Link href="/blog/grid-left-sidebar">
-                        <FaCalendarAlt />
-                        April 14, 2021
-                      </Link>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <FaRegComments /> 2 Comments
-                      </a>
-                    </li>
-                  </ul>
                   <div className="blog-img">
                     <img
                       src="/assets/images/blog/blog_img1.jpg"
@@ -65,26 +52,7 @@ const PostLeftSidebar = () => {
                           pellentesque at fringilla tincidunt risus.
                         </p>
                       </blockquote>
-                      <Row>
-                        <Col sm={6}>
-                          <div className="single-img">
-                            <img
-                              className="w-100 mb-4"
-                              src="/assets/images/blog/blog_single_img1.jpg"
-                              alt="blog_single_img1"
-                            />
-                          </div>
-                        </Col>
-                        <Col sm={6}>
-                          <div className="single-img">
-                            <img
-                              className="w-100 mb-4"
-                              src="/assets/images/blog/blog_single_img2.jpg"
-                              alt="blog_single_img2"
-                            />
-                          </div>
-                        </Col>
-                      </Row>
+
                       <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                         Praesent id dolor dui, dapibus gravida elit. Donec
