@@ -79,7 +79,7 @@ const FooterTwo = () => {
                     </li>
 
                     <li>
-                      <Link href="/blog/list-left-sidebar">Blogs</Link>
+                      <Link href="/blogs/">Blogs</Link>
                     </li>
 
                     <li>

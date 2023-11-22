@@ -1,7 +1,6 @@
 import { Container } from "react-bootstrap";
 import { AiOutlineClockCircle } from "react-icons/ai";
 import { useSelector } from "react-redux";
-import { Countdown } from "../Countdown";
 import Swiper, { SwiperSlide } from "../swiper";
 import ProductGridTwo from "../ProductThumb/ProductGridTwo";
 import { getDiscountPrice } from "../../lib/product";
@@ -40,7 +39,6 @@ const ProductSliderThree = ({ title, products, dateTime }) => {
           <h2>{title}</h2>
           <div className="countdown">
             <AiOutlineClockCircle />{" "}
-            <Countdown date={dateTime} showType={false} />
           </div>
         </div>
         <div className="product-slider-wrap">

@@ -6,11 +6,6 @@ const TextWithImageOne = () => {
       <Container>
         <Row className="align-items-center">
           <Col lg={6}>
-            <div className="about-img scene mb-4 mb-lg-0">
-              <img src="/assets/images/banner/about_img.jpg" alt="about_img" />
-            </div>
-          </Col>
-          <Col lg={6}>
             <div className="heading-s1 space-mb--20">
               <h2>Who We are</h2>
             </div>
@@ -25,6 +20,11 @@ const TextWithImageOne = () => {
               mauris. Duis sed odio sit amet nibh vultate cursus a sit amet
               mauris.
             </p>
+          </Col>
+          <Col lg={6}>
+            <div className="about-img scene mb-4 mb-lg-0">
+              <img src="/assets/images/banner/about_img.jpg" alt="about_img" />
+            </div>
           </Col>
         </Row>
       </Container>

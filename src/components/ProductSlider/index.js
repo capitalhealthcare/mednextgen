@@ -9,7 +9,6 @@ import ProductSliderEightWrapper from "./ProductSliderEightWrapper";
 import ProductSliderNine from "./ProductSliderNine";
 import ProductSliderTen from "./ProductSliderTen";
 import ProductSliderEleven from "./ProductSliderEleven";
-import DealProductSlider from "./DealProductSlider";
 import OnlyProductSlider from "./OnlyProductSlider";
 
 export {
@@ -25,5 +24,4 @@ export {
   ProductSliderNine,
   ProductSliderTen,
   ProductSliderEleven,
-  DealProductSlider,
 };
