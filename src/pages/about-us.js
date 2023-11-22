@@ -2,11 +2,8 @@ import Link from "next/link";
 import { LayoutOne } from "../layouts";
 import { BreadcrumbOne } from "../components/Breadcrumb";
 import { TextWithImageOne } from "../components/TextWithImage";
-import { TeamMemberOne } from "../components/TeamMember";
-import { TestimonialOne } from "../components/Testimonial";
-import { IconBoxOne, IconBoxTwo } from "../components/IconBox";
-import teamMemberOneData from "../data/team-member/team-member-one.json";
-import testimonialOneData from "../data/testimonials/testimonial-one.json";
+import {  IconBoxTwo } from "../components/IconBox";
+
 
 const AboutUs = () => {
   return (
@@ -26,12 +23,6 @@ const AboutUs = () => {
       <TextWithImageOne />
       {/* icon box */}
       <IconBoxTwo />
-      {/* team member*/}
-      {/* <TeamMemberOne teamMemberData={teamMemberOneData} /> */}
-      {/* testimonial */}
-      {/* <TestimonialOne testimonialData={testimonialOneData} /> */}
-      {/* icon box */}
-      {/* <IconBoxOne /> */}
     </LayoutOne>
   );
 };

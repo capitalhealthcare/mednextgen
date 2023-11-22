@@ -98,7 +98,7 @@ const HeaderTwo = ({ navPositionClass }) => {
                 <ul className="header-icons d-flex justify-content-end">
                   <li className="d-none d-lg-block position-relative">
                     <Link
-                      href="/other/cart"
+                      href="/cart"
                       className="nav-link mini-cart-trigger pe-3 pe-lg-0"
                     >
                       <AiOutlineShoppingCart />
@@ -114,7 +114,7 @@ const HeaderTwo = ({ navPositionClass }) => {
 
                   <li className="d-block d-lg-none position-relative">
                     <Link
-                      href="/other/cart"
+                      href="/cart"
                       className="nav-link mini-cart-trigger pe-3 pe-lg-0"
                     >
                       <AiOutlineShoppingCart />
