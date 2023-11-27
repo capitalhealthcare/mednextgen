@@ -45,6 +45,36 @@ const MobileMenuNav = ({ getActiveStatus }) => {
         <li>
           <Link href="/">Home</Link>
         </li>
+        <li className="menu-item-has-children">
+          <Link href="/#">Supplies</Link>
+          <ul className="mobile-sub-menu">
+            <li>
+              <Link href="/category/rf-cannulas" className="nav-link">
+                <i className=""></i> <span>RF Cannulas</span>
+              </Link>
+            </li>
+            <li>
+              <Link href="/category/rf-electrodes" className="nav-link">
+                <i className=""></i> <span>RF Electrodes</span>
+              </Link>
+            </li>
+            <li>
+              <Link href="/category/epidurals" className="nav-link">
+                <i className=""></i> <span>Epidurals</span>
+              </Link>
+            </li>
+            <li>
+              <Link href="/category/spinal-needles" className="nav-link">
+                <i className=""></i> <span>Spinal Needles</span>
+              </Link>
+            </li>
+            <li>
+              <Link href="/category/gloves" className="nav-link">
+                <i className=""></i> <span>Gloves</span>
+              </Link>
+            </li>
+          </ul>
+        </li>
         <li>
           <Link href="/about-us">About Us</Link>
         </li>
@@ -59,7 +89,7 @@ const MobileMenuNav = ({ getActiveStatus }) => {
         </li>{" "}
         <li>
           <Link href="/terms">Terms & Conditions</Link>
-        </li>   
+        </li>
       </ul>
     </nav>
   );
